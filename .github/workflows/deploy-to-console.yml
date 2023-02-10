@@ -29,9 +29,9 @@ jobs:
         run: |
           npm install --frozen-lockfile
       
-      - name: Build Contract 🔧
+      - name: Build Contracts 🔧
         run: |
-          npm run build:contract
+          npm run build:contracts
           
       - name: Upload File
         id: upload
